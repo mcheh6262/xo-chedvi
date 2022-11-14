@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <script src="eiqs.js"></script>
+</head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+        background-position: center;
+    }
+    .eitov{
+        width: 160px;
+        height: 160px;
+        text-align: center;
+        font-size: 60px;
+        color: brown;
+   }
+   body {
+   direction: rtl; background-image: url(images.jpg); background-position: center; background-repeat: no-repeat; background-size: 100%;
+   }
+
+</style>
+<h1 style="text-align: center;">game xo</h1>
+<p id="won"></p>
+<body>
+    <button onclick="play()" id="play">play agein</button>
+  
+    <br> <br>
+
+    <table>
+        <tr>
+          <th  id="td0"><button onclick="div0()" id="box0" class="eitov"></button></th>
+          <th  id="td1"><button onclick="div1()" id="box1" class="eitov"></button></th>
+          <th  id="td2"><button onclick="div2()" id="box2" class="eitov"></button></th>
+        </tr>
+        <tr>
+            <td  id="td3"><button onclick="div3()" id="box3" class="eitov"></button></td>
+            <td  id="td4"><button onclick="div4()" id="box4" class="eitov"></button></td>
+            <td  id="td5"><button onclick="div5()" id="box5" class="eitov"></button></td>
+        </tr>
+        <tr>
+            <td  id="td6"><button onclick="div6()" id="box6" class="eitov"></button></td>
+            <td  id="td7"><button onclick="div7()" id="box7" class="eitov"></button></td>
+            <td  id="td8"><button onclick="div8()" id="box8" class="eitov"></button></td>
+        </tr>
+       
+
+      </table>
+    
+</body>
+</html>
